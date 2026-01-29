@@ -281,25 +281,4 @@ button:hover{
 
 /* <!-- *****************************<Footer-Section>****************************** --> */
 
-@media (max-width:800px) {
 
-    .card1 {
-
-       min-width: 40vw !important;
-       max-width: 40vw !important;
-
-    }
-
-    .container2{
-
-        gap: .5rem;
-        padding-top: 2.5rem;
-    }
-
-    .img{
-
-        min-width: 75vw;
-        max-width: 75vw;
-
-    }
-}
