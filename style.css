@@ -1,12 +1,11 @@
 body {
 
-    /* width: 100%; */
-    /* height: 100vh; */
+    
     overflow-x: hidden;
 }
 
 
-/* <!-- *****************************<Header-1>****************************** --> */
+/* <!--<Header-1> --> */
 
 .header {
 
@@ -27,7 +26,7 @@ body {
 }
 
 
-/* <!-- *****************************<Header-2>****************************** --> */
+/* <!-- *<Header-2> --> */
 
 .second {
 
@@ -106,7 +105,7 @@ h4:hover{
 }
 
 
-/* <!-- *****************************<Main-Section>****************************** --> */
+/* <!-- <Main-Section> --> */
 
 .wrap {
 
@@ -116,7 +115,8 @@ h4:hover{
 }
 
 .container2{
-
+    display:flex;
+     grid-template-columns: repeat(2,1fr);
     width: 100%;
     gap: 1.5rem;
     padding-top: 2.5rem;
@@ -126,8 +126,7 @@ h4:hover{
 
     min-width: 27vw;
     max-width: 27vw;
-    /* height: 21rem; */
-    /* background-color: aqua; */
+   
 }
 
 .card1:hover{
@@ -142,23 +141,21 @@ h4:hover{
 }
 
 
-/* <!-- *****************************<Owner-Bio-Section>****************************** --> */
+/* <!-- *<Owner-Bio-Section>\ --> */
 
 .container3{
 
     width: 100;
-    /* background-color: rgb(57, 75, 75); */
 }
 
 .img{
     
     min-width: 23.5rem;
     max-width: 23.5rem; 
-    /* height: 31rem; */
+   
     margin-left: 2.5rem;
     margin-top: 3rem;
-    /* padding-left: 1rem; */
-    /* background-color: aquamarine; */
+   
     
 }
 
@@ -192,7 +189,7 @@ button:hover{
 }
 
 
-/* <!-- *****************************<Footer-Section>****************************** --> */
+/* <!-- <Footer-Section> --> */
 
 .container4{
 
@@ -234,8 +231,7 @@ button:hover{
 }
 
 .footer-2{
-/* 
-    margin-left: 10rem; */
+
     color: gray;
     font-size: 14px;
     flex-wrap: wrap;
@@ -279,7 +275,7 @@ button:hover{
 }
 
 
-/* <!-- *****************************<Footer-Section>****************************** --> */
+/* <!-- **<Footer-Section>* --> */
 
 @media (max-width:800px) {
 
