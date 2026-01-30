@@ -231,7 +231,7 @@ button:hover{
 }
 
 .footer-2{
-
+    
     color: gray;
     font-size: 14px;
     flex-wrap: wrap;
@@ -275,7 +275,7 @@ button:hover{
 }
 
 
-/* <!-- **<Footer-Section>* --> */
+/* <!-- *****************************<Footer-Section>****************************** --> */
 
 @media (max-width:800px) {
 
